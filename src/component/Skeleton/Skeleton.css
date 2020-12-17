@@ -25,3 +25,8 @@
   width: 100px;
   height: 100px;
 }
+
+.skeletonArticle__wrapper {
+  margin: 20px auto;
+  padding: 10px 15px;
+}
