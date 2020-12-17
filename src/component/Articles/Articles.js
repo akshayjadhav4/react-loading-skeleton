@@ -20,8 +20,7 @@ function Articles() {
             <p>{article.body}</p>
           </div>
         ))}
-      {!articles &&
-        [1, 2, 3, 4, 5].map((i) => <SkeletonArticle key={i} theme="dark" />)}
+      {!articles && [1, 2, 3, 4, 5].map((i) => <SkeletonArticle key={i} />)}
     </div>
   );
 }
